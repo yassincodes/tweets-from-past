@@ -65,13 +65,13 @@ body {
 
   .routes-selector-section {
     width: 100vw;
-    height: 10%;
+    height: 10vh;
     position:sticky;
   }
 
   .routes-section {
     width: 100vw;
-    height: 90%;
+    height: 90vh;
   }
 
   .links {
