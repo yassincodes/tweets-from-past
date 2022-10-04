@@ -66,6 +66,7 @@ body {
   .routes-selector-section {
     width: 100vw;
     height: 10%;
+    position:sticky;
   }
 
   .routes-section {
