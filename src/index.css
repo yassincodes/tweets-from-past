@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Prompt", sans-serif;
+  font-family: "Vazirmatn", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  height: 100vh;
+}
+
+.twitter_header {
+  display: none;
+}
+
+.routes-selector-section {
+  width: 30%;
+  text-align: right;
+  display: flex;
+  justify-content: center;
+}
+
+.routes-section {
+  width: 70%;
+  overflow-y: auto;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  padding: 2vh 4vh;
+}
+
+.link:hover {
+  background: rgb(226, 224, 224);
+  border-radius: 10px;
+}
+
+.links {
+  margin-top: 10vh;
+  font-size: 1.8em;
+}
+
+.logo-icon {
+  color: rgb(29, 155, 240);
+}
+
+@media only screen and (max-width: 600px) {
+  .App {
+    flex-direction: column;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+  .routes-selector-section {
+    width: 100vw;
+    height: 10%;
+  }
+
+  .routes-section {
+    width: 100vw;
+    height: 90%;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100vw;
+    font-size: 1em;
+  }
+
+  .link {
+    flex-direction: column-reverse;
+    width: 33.33vw;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  .twitter_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 0.5px solid rgb(233, 233, 233);
+  }
+
+}
