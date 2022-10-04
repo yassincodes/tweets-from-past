@@ -67,7 +67,9 @@ body {
   .routes-selector-section {
     width: 100vw;
     height: 10vh;
-    position:sticky;
+    position:fixed;
+    bottom: 0;
+    background: white;
   }
 
   .routes-section {
