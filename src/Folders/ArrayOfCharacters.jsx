@@ -66,7 +66,7 @@ export const arrayOfCharacters = [
     username: "@hannibalOfficial",
     bio: (
       <div>
-        رسام, سياسي, قائد عسكري وكاتب
+       الحساب الرسمي للقائد القرطاجي حنبعل
       </div>
     ),
     cover_pic: "https://cdnb.artstation.com/p/assets/images/images/033/053/565/large/alex-nice-hannibal-sm4.jpg?1608242935",
@@ -89,7 +89,7 @@ export const arrayOfCharacters = [
     username: "@JeffersonOfficial",
     bio: (
       <div>
-        رسام, سياسي, قائد عسكري وكاتب
+        الرئيس الـ3 للولايات المتحدة الأمريكية
       </div>
     ),
     cover_pic: "https://in2english.net/wp-content/uploads/2018/10/New-York-City-800x531.jpg",
@@ -121,7 +121,7 @@ export const arrayOfCharacters = [
     username: "@realAdolfHitler",
     bio: (
       <div>
-        رسام, سياسي, قائد عسكري وكاتب
+        الأخبار على مدار الساعة
       </div>
     ),
     cover_pic: "https://learndojo.org/wp-content/uploads/2019/08/GCSE-History-Life-in-Nazi-Germany-1-768x518.jpg",
