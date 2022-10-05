@@ -111,7 +111,7 @@ export const arrayOfCharacters = [
     cover_pic: "https://newsela.imgix.net/article_media/2020/01/lib-presidential-election-1932-16dac958.jpg?auto=compress%2C%20enhance&fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.58&fp-z=1&ar=16%3A9&q=50&w=689",
     birthday: "1882 "  + " 30" + " جانفي",
     location: "الولايات المتحدة الأمريكية",
-    website: "https://en.wikipedia.org/wiki/Adolf_Hitler",
+    website: "www.whitehouse.gov/",
     character_link: "fdr",
   },
   {
