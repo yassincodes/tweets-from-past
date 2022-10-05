@@ -29,6 +29,7 @@ function Character() {
             />
           );
         })}
+        <div style={{visibility: "hidden", height: "10vh"}}>empty</div>
     </div>
   );
 }

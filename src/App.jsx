@@ -2,7 +2,7 @@ import Home from "./Folders/Home";
 import Hashtags from "./Folders/Hashtags";
 import Account from "./Folders/Account";
 import Hashtag from "./Folders/Hashtag";
-import Character from "./Folders/Character"
+import Character from "./Folders/Character";
 import RoutesSelector from "./Components/RoutesSelector";
 import { Routes, Route } from "react-router-dom";
 
@@ -21,7 +21,9 @@ function App() {
   );
   return (
     <div className="App">
-      <div className="twitter_header">{logoIcon}</div>
+      <div className="twitter_header_container">
+        <div className="twitter_header">{logoIcon}</div>
+      </div>
       <div className="routes-section">
         <Routes>
           <Route exact path="/" element={<Home />} />
@@ -41,7 +43,7 @@ function App() {
           <Route path="/Churchill_UK" element={<Character />} />
           <Route path="/marx" element={<Character />} />
           <Route path="/fdr" element={<Character />} />
-          <Route path="/JeffersonOfficial" element={<Character /> } />
+          <Route path="/JeffersonOfficial" element={<Character />} />
           <Route path="/hannibalOfficial" element={<Character />} />
         </Routes>
       </div>
